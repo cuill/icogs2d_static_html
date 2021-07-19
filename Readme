@@ -1,4 +1,4 @@
-This repo is modified from estofs_static_html to genearete static html for ICOGS2D.
+This repo is modified from estofs_static_html to genearate static html for ICOGS2D.
 
 pyschism is needed to read the *.gr3 file.  Install pyschism:
     pip install pyschism
