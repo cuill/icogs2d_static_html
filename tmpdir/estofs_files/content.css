@@ -1,0 +1,42 @@
+@charset "UTF-8";
+html, body {
+    font-family:      sans pro, sans-serif;
+    font-size:        12pt;
+    line-height:      1.5;
+    margin:           0;
+    color:            #555;
+    background-color: white;
+}
+
+.content {
+    flex:    2;
+    padding: 0 1ch;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    color: #222;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+h5 {
+    font-size: 16pt;
+}
+
+h6 {
+    font-size: 14pt;
+}

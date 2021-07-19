@@ -1,0 +1,28 @@
+footer {
+    font-size:        10px;
+    display:          flex;
+    align-items:      center;
+    flex:             1;
+    flex-direction:   column;
+    justify-content:  center;
+    width:            100%;
+    padding:          2.5ch 0;
+    color:            white;
+    background-color: #054698;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #0098da;
+}
+
+
+
+

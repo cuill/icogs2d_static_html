@@ -1,0 +1,75 @@
+header {
+    z-index:          auto;
+    display:          flex;
+    flex:             1;
+    flex-wrap:        wrap;
+    justify-content:  space-between;
+    margin:           1ch;
+    color:            #004496;
+    background-color: white;
+}
+
+header a {
+    flex:            1;
+    text-decoration: none;
+    letter-spacing:  0.1ch;
+    color:           #004496;
+}
+
+nav a:hover {
+    color: #e21833;
+}
+
+@media (max-width: 60em) {
+    .flyout button {
+        font-family:      inherit;
+        font-size:        inherit;
+        font-weight:      inherit;
+        position:         relative;
+        color:            #004496;
+        border:           none;
+        outline:          none;
+        background-color: inherit;
+    }
+
+    .flyout:hover .flyout_content {
+        visibility: visible;
+    }
+
+    .flyout_content {
+        position:         absolute;
+        right:            0;
+        display:          inline-block;
+        visibility:       hidden;
+        min-width:        10ch;
+        margin-top:       4.75ch;
+        background-color: #f9f9f9;
+        box-shadow:       0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flyout_content a {
+        display:         block;
+        padding:         1ch;
+        text-decoration: none;
+        color:           black;
+    }
+
+    .flyout_content a:hover {
+        background-color: #ddd;
+    }
+}
+
+@media (min-width: 60em) {
+    nav {
+        display:   flex;
+        flex-wrap: wrap;
+    }
+
+    .flyout button {
+        display: none;
+    }
+
+    nav a {
+        margin-left: 1ch;
+    }
+}

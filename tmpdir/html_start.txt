@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://coastaloceanmodels.noaa.gov/coupling/04_hurricane_explorer.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ESTOFS-ATLANTIC operational</title>
+    
+    <!--    <link href="styles/04_style.css" rel="stylesheet">-->
+    <link href="./estofs_files/content.css" rel="stylesheet">
+    <link href="https://coastaloceanmodels.noaa.gov/coupling/04_hurricane_explorer.html#" rel="shortcut icon">
+
+    <style>
+        table {
+            width:           90%;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 8px;
+            border:  1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+    </style>
+<link href="./estofs_files/header.css" rel="stylesheet" type="text/css"><link href="./estofs_files/footer.css" rel="stylesheet" type="text/css"></head>
+<body>
+<section class="content">
+    <a href="https://coastaloceanmodels.noaa.gov/coupling/index.html" title="Coastal coupling">&lt;- model coupling</a>
+    <h1>ESTOFS Atlantic</h1>
+    <p>
+        This is a Web based GIS tool to browse ESTOFS Atlantic storm surge model in an interactive and flexible
+        environment. This is an experimental web portal for graphic visualization of the operational and experimental 
+        results from the storm surge and tide forecast systems being developed and tested by the 
+        Storm Surge Modeling Team at the <a href="https://www.nauticalcharts.noaa.gov/"> Office of Coast Survey</a> at NOAA National Ocean Service.
+        
+    </p>
+   
+    <p> 
+        ESTOFS model output is NOT a total water level guidance. Actual water levels can be significantly higher than 
+        forecast due to waves, steric effect and other components not presently included in the ESTOFS. 
+        Please check with your regional National Weather Service forecast office for the official water level 
+		forecast.
+    
+    
+    </p>
+    
+    <p> 
+	The Maximal storm tide (storm surge + astronomical tide) is computed by the model over 168 hours 
+	forecast cycle in meters above Mean Sea Level (MSL).
+	
+    </p>
+		
+    <p>    
+     <a href="https://polar.ncep.noaa.gov/estofs/atl/index.htm" target="_blank">For model assessment CLICK HERE.</a>
+    </p>
+    
+	<h2>ESTOFS-ATLANTIC Operational Dates and Forecast Cycles</h2>
+
+    <table>
+        <tbody>
+        
